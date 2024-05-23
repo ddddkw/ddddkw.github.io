@@ -1,0 +1,150 @@
+site_name: Leoalasiga Blog
+site_description: The Blogs record by Leoalsiga
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/leoalasiga/leoalasiga.github.io.git
+repo_name: leoalasiga/leoalasiga.github.io.git # 仓库地址
+copyright: Copyright &copy; 2023 leoalasiaga # 左下角的版权声明
+# edit_uri: edit/main/docs/ # 开启编辑
+nav:
+  - Home:
+    - home/index.md
+  - Blog:
+    - blog/index.md
+  - Togs:
+    - togs.md
+theme:
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.footer
+    - navigation.tabs
+    - navigation.prune
+    - navigation.footer
+    - content.code.annotate
+    - content.code.copy
+    - toc.integrate
+    - toc.follow
+    - search.suggest # 开启搜索建议
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share #搜索分享按钮
+    # - header.autohide
+    - announce.dismiss
+    # - content.action.edit
+  #logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    logo: material/book
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    repo: fontawesome/brands/git-alt    #右上角仓库图标
+    edit: material/pencil 
+    view: material/eye
+  name: material
+  font:
+    text: Roboto Mono
+  language: zh
+  palette:
+    # primary: pink
+    # scheme: default
+    # accent: indigo
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)" # 日间模式
+      scheme: default
+      primary: pink
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)" # 夜间模式
+      scheme: slate
+      primary: green
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+extra:
+  generator: false
+  homepage: https://leoalasiga.github.io
+  alternate: # 中英文切换
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/leoalasiga
+    - icon: fontawesome/brands/mastodon 
+      link: https://leoalasiga.github.io
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+    # cookies:
+    #   analytics: Custom name
+# Markdown extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+plugins:
+  - blog:
+      blog_toc: true
+      post_date_format: short
+      # post_url_format: "{date}/{slug}"
+      # post_url_max_categories: 2
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - search
+  # - tables
+  - tags:
+      tags_file: tags.md
+
+      
