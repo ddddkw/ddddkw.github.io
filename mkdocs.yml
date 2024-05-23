@@ -1,17 +1,13 @@
-site_name: Leoalasiga Blog
-site_description: The Blogs record by Leoalsiga
+site_name: ddddkw Blog
+site_description: The Blogs record by ddddkw
 site_url: https://mydomain.org/mysite
-repo_url: https://github.com/leoalasiga/leoalasiga.github.io.git
-repo_name: leoalasiga/leoalasiga.github.io.git # 仓库地址
-copyright: Copyright &copy; 2023 leoalasiaga # 左下角的版权声明
+repo_url: https://github.com/ddddkw/ddddkw.github.io.git
+repo_name: ddddkw/ddddkw.github.io.git # 仓库地址
+copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
 # edit_uri: edit/main/docs/ # 开启编辑
 nav:
-  - Home:
-    - home/index.md
-  - Blog:
+  - 博客:
     - blog/index.md
-  - Togs:
-    - togs.md
 theme:
   features:
     - navigation.indexes
@@ -34,14 +30,14 @@ theme:
     # - header.autohide
     - announce.dismiss
     # - content.action.edit
-  #logo: assets/logo.png
-  favicon: assets/logo.png
+#  logo: assets/logo.ico
+  favicon: assets/logo.ico
   icon:
     logo: material/book
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
     repo: fontawesome/brands/git-alt    #右上角仓库图标
-    edit: material/pencil 
+    edit: material/pencil
     view: material/eye
   name: material
   font:
@@ -54,7 +50,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)" # 日间模式
       scheme: default
-      primary: pink
+      primary: light blue
       accent: indigo
       toggle:
         icon: material/lightbulb
@@ -63,29 +59,29 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)" # 夜间模式
       scheme: slate
-      primary: green
+      primary: grey
       accent: indigo
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
 extra:
   generator: false
-  homepage: https://leoalasiga.github.io
-  alternate: # 中英文切换
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: 中文
-      link: /zh/
-      lang: zh
+  homepage: https://ddddkw.github.io
+#  alternate: # 中英文切换
+#    - name: English
+#      link: /en/
+#      lang: en
+#    - name: 中文
+#      link: /zh/
+#      lang: zh
   social:
-    - icon: fontawesome/brands/github 
-      link: https://github.com/leoalasiga
-    - icon: fontawesome/brands/mastodon 
-      link: https://leoalasiga.github.io
+    - icon: fontawesome/brands/github
+      link: https://github.com/ddddkw
+    - icon: fontawesome/brands/mastodon
+      link: https://ddddkw.github.io
   # consent:
   #   title: Cookie consent
-  #   description: >- 
+  #   description: >-
   #     We use cookies to recognize your repeated visits and preferences, as well
   #     as to measure the effectiveness of our documentation and whether users
   #     find what they're searching for. With your consent, you're helping us to
@@ -124,7 +120,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
@@ -147,4 +143,4 @@ plugins:
   - tags:
       tags_file: tags.md
 
-      
+
