@@ -1,13 +1,17 @@
 site_name: ddddkw Blog
-site_description: The Blogs record by ddddkw
+site_description: The Blogs record by Leoalsiga
 site_url: https://mydomain.org/mysite
 repo_url: https://github.com/ddddkw/ddddkw.github.io.git
 repo_name: ddddkw/ddddkw.github.io.git # 仓库地址
-copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
+copyright: Copyright &copy; 2023 leoalasiaga # 左下角的版权声明
 # edit_uri: edit/main/docs/ # 开启编辑
 nav:
-  - 博客:
-    - blog/index.md
+  - 主页:
+    - index.md
+  - 标签:
+    - tags.md
+  - 联系我:
+    - contact.md
 theme:
   features:
     - navigation.indexes
@@ -30,14 +34,14 @@ theme:
     # - header.autohide
     - announce.dismiss
     # - content.action.edit
-#  logo: assets/logo.ico
-  favicon: assets/logo.ico
+  #logo: assets/logo.png
+  favicon: assets/logo.png
   icon:
-    logo: material/book
+    logo: material/dog
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
     repo: fontawesome/brands/git-alt    #右上角仓库图标
-    edit: material/pencil
+    edit: material/pencil 
     view: material/eye
   name: material
   font:
@@ -50,8 +54,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)" # 日间模式
       scheme: default
-      primary: light blue
-      accent: indigo
+      primary: green
+      accent: pink
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
@@ -59,29 +63,29 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)" # 夜间模式
       scheme: slate
-      primary: grey
-      accent: indigo
+      primary: blue
+      accent: pink
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
 extra:
   generator: false
   homepage: https://ddddkw.github.io
-#  alternate: # 中英文切换
-#    - name: English
-#      link: /en/
-#      lang: en
-#    - name: 中文
-#      link: /zh/
-#      lang: zh
+  # alternate: # 中英文切换
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: 中文
+  #     link: /zh/
+  #     lang: zh
   social:
-    - icon: fontawesome/brands/github
+    - icon: fontawesome/brands/github 
       link: https://github.com/ddddkw
-    - icon: fontawesome/brands/mastodon
+    - icon: fontawesome/brands/mastodon 
       link: https://ddddkw.github.io
   # consent:
   #   title: Cookie consent
-  #   description: >-
+  #   description: >- 
   #     We use cookies to recognize your repeated visits and preferences, as well
   #     as to measure the effectiveness of our documentation and whether users
   #     find what they're searching for. With your consent, you're helping us to
@@ -120,17 +124,17 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
-  - javascripts/extra.js
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - blog:
+      blog_dir: .
       blog_toc: true
       post_date_format: short
       # post_url_format: "{date}/{slug}"
@@ -143,4 +147,4 @@ plugins:
   - tags:
       tags_file: tags.md
 
-
+      
