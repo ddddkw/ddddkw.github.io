@@ -1,4 +1,5 @@
 site_name: ddddkw Blog
+docs_dir: docs
 site_description: The Blogs record by dkw
 site_url: https://mydomain.org/mysite
 repo_url: https://github.com/ddddkw/ddddkw.github.io.git
@@ -71,6 +72,7 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 extra:
+  images_dir: assets
   generator: false
   homepage: https://ddddkw.github.io
   # alternate: # 中英文切换

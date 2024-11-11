@@ -1,8 +1,9 @@
 # 茶一碗，酒一樽，熙熙攘攘一闲人
 
 
-
-![](E:\blogproject\ddddkw.github.io\docs\assets\logo.png)
+<p style="text-align: center; margin: 0px;" markdown>
+    <img src="https://github.com/ddddkw/ddddkw.github.io/docs/assets/header.png"  alt="headerImg"/>
+</p>
 
 about me：
 
@@ -13,4 +14,4 @@ about me：
 
 小小目标，开冲！
 
-![](E:\blogproject\ddddkw.github.io\docs\assets\goals.png)
+![](assets/goals.png)
