@@ -1,9 +1,9 @@
 # 茶一碗，酒一樽，熙熙攘攘一闲人
 
 
-<p style="text-align: center; margin: 0px;" markdown>
-    <img src="https://github.com/ddddkw/ddddkw.github.io/docs/assets/header.png"  alt="headerImg"/>
-</p>
+<div style="text-align: center">
+    <img src="https://www.helloimg.com/i/2024/11/11/6731ffea847a0.png" style="zoom:25%;border-radius: 50%" />
+</div>
 
 about me：
 
