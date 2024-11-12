@@ -19,6 +19,7 @@ nav:
        - let和var的区别: technology/web/let和var的区别.md
        - echarts饼图镶嵌图片: technology/web/echartsPie.md
        - 默认导出和命名导出: technology/web/默认导出和命名导出.md
+       - GoogleV8底层原理: technology/web/GoogleV8底层原理.md
        - 低代码平台:
           - first: technology/web/lowCode/first.md
     - 后端: technology/boot/index.md
