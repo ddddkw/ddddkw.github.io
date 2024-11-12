@@ -44,7 +44,8 @@
 
     ---
 
-    - [了解我](about.md)
+    - [js实现文件排序](technology/web/js实现文件排序.md)
+    - [echarts饼图偏移+图片](technology/web/echartsPie.md)
 
 -   :simple-materialformkdocs:{ .lg .middle } __开发教程__
 
