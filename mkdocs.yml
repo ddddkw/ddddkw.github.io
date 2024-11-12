@@ -9,7 +9,8 @@ copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
 # edit_uri: edit/main/docs/ # 开启编辑
 nav:
   - 主页:
-    - index.md
+    - 主页: index.md
+    - mkdocs&图片: homePage/pictures.md
   - 开发:
     - technology/index.md
     - 前端: technology/web/index.md
