@@ -27,6 +27,8 @@ nav:
       - vue: sourceCode/vue.md
   - 关于:
     - about.md
+  - 友链:
+    - otherLink.md
 theme:
   features:
     - navigation.indexes
