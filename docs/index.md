@@ -64,6 +64,7 @@
 
     ---
 
+    - [博客DEMO](products/blog.md)[^see-how-much-I-love-you]
     - [:octicons-arrow-right-24: 了解我](about.md)[^see-how-much-I-love-you]
 
 </div>
