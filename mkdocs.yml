@@ -25,6 +25,8 @@ nav:
     - 后端: technology/boot/index.md
   - 源码:
       - vue: sourceCode/vue.md
+  - demo:
+      - 个人博客: products/blog.md
   - 关于:
     - about.md
   - 友链:
