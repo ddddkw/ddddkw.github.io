@@ -23,6 +23,8 @@ nav:
        - 低代码平台:
           - first: technology/web/lowCode/first.md
     - 后端: technology/boot/index.md
+  - 学习:
+      - 小记: study/index.md
   - 源码:
       - vue: sourceCode/vue.md
   - demo:
