@@ -10,7 +10,7 @@
 
 主页如下，是可以展示保存后的页面列表的，相应的可以进行预览编辑删除等操作，也可进行新增页面
 
-数据是相应的存储在数据库中，所以也会有一个使用java开发的后端项目配套使用
+页面数据是相应的存储在数据库中，所以也会有一个使用java开发的后端项目配套使用
 
 ![](../../../assets/lowCode/homePage.png)
 
@@ -21,3 +21,4 @@
 ![](../../../assets/lowCode/buildPage.png)
 
 **对应的github仓库地址：**https://github.com/ddddkw/tools_web
+**对应的后端项目仓库地址：**https://github.com/ddddkw/tools_web
