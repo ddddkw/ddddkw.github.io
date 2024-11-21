@@ -20,9 +20,12 @@ nav:
        - let和var的区别: technology/web/let和var的区别.md
        - echarts饼图镶嵌图片: technology/web/echartsPie.md
        - 默认导出和命名导出: technology/web/默认导出和命名导出.md
+       - react:
+          - react-router: technology/web/react/router.md
        - 低代码平台:
           - first: technology/web/lowCode/first.md
-    - 后端: technology/boot/index.md
+    - 后端:
+       - 主页: technology/boot/index.md
   - 学习:
       - 小记: study/index.md
   - 源码:
