@@ -22,6 +22,7 @@ nav:
        - 默认导出和命名导出: technology/web/默认导出和命名导出.md
        - react:
           - react-router: technology/web/react/router.md
+          - antdesign-upload组件的使用以及文件存储展示: technology/web/react/upload.md
        - 低代码平台:
           - first: technology/web/lowCode/first.md
     - 后端:
@@ -30,6 +31,7 @@ nav:
       - 小记: study/index.md
   - 源码:
       - vue: sourceCode/vue.md
+      - 虚拟DOM: sourceCode/虚拟DOM.md
   - demo:
       - 个人博客: products/blog.md
   - 关于:
