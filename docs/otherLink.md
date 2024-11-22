@@ -1,5 +1,5 @@
 # 友情链接
 
-主要介绍一些自己github中做的一些小项目，各种的demo的展示
+友链： <a href='https://leoalasiga.github.io/'>https://leoalasiga.github.io/</a>
 
-<a href="https://peaceandlove.asia/">peaceandlove</a>
+个人demo： <a href='https://peaceandlove.asia/ '>https://peaceandlove.asia/</a>
