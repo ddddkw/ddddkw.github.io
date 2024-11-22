@@ -10,8 +10,8 @@ copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
 nav:
   - 技术:
 #    - 主页: index.md
-    - mkdocs&图片: homePage/pictures.md
     - 搭建github.Pages: homePage/buildPage.md
+    - mkdocs&图片: homePage/pictures.md
     - GoogleV8底层原理: homePage/GoogleV8底层原理.md
   - 开发:
     - 前端:
