@@ -12,7 +12,6 @@ nav:
 #    - 主页: index.md
     - 搭建github.Pages: homePage/buildPage.md
     - mkdocs&图片: homePage/pictures.md
-    - GoogleV8底层原理: homePage/GoogleV8底层原理.md
   - 开发:
     - 前端:
        - js实现文件排序: technology/web/js实现文件排序.md
@@ -30,6 +29,8 @@ nav:
        - 主页: technology/boot/index.md
   - 学习:
       - 小记: study/index.md
+      - GoogleV8底层原理:
+        - 1,V8如何执行一段JavaScript代码: study/GoogleV8/first.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
