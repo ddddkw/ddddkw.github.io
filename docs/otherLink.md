@@ -4,4 +4,8 @@
 
 友链2： <a href='https://x.vip.cpolar.top/'>https://x.vip.cpolar.top/</a>
 
+友链3： <a href='https://blog.wsleepybear.cn/'>https://blog.wsleepybear.cn/</a>
+
+友链4： <a href='https://www.wujunhao1024.com/'>https://www.wujunhao1024.com/</a>
+
 个人demo： <a href='https://peaceandlove.asia/ '>https://peaceandlove.asia/</a>
