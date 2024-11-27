@@ -8,4 +8,4 @@
 
 友链4： <a href='https://www.wujunhao1024.com/'>https://www.wujunhao1024.com/</a>
 
-个人demo： <a href='https://peaceandlove.asia/ '>https://peaceandlove.asia/</a>
+个人demo： <a href='https://peaceandlove.asia/'>https://peaceandlove.asia/</a>
