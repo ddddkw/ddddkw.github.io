@@ -2,7 +2,7 @@
 
 友链1： <a href='https://leoalasiga.github.io/'>https://leoalasiga.github.io/</a>
 
-友链2： <a href='https://x.vip.cpolar.top/'>https://x.vip.cpolar.top/</a>
+友链2： <a href='https://sy.cpolar.cn/'>https://sy.cpolar.cn/</a>
 
 友链3： <a href='https://blog.wsleepybear.cn/'>https://blog.wsleepybear.cn/</a>
 
