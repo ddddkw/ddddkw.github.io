@@ -45,13 +45,14 @@
     ---
 
     - [js实现文件排序](technology/web/js实现文件排序.md)
-    - [echarts饼图偏移+图片](technology/web/echartsPie.md)
+    - [V8对象继承](study/GoogleV8/third.md)
 
 -   :simple-materialformkdocs:{ .lg .middle } __开发教程__
 
     ---
 
     - [简易的低代码平台](technology/web/lowCode/first.md)
+    - [echarts饼图偏移+图片](technology/web/echartsPie.md)
 
 
 -   :material-format-font:{ .lg .middle } __源码学习__

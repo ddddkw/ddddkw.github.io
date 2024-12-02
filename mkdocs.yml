@@ -31,6 +31,7 @@ nav:
       - 小记: study/index.md
       - GoogleV8底层原理:
         - 1,V8如何执行一段JavaScript代码: study/GoogleV8/first.md
+        - 2,js对象模型全解: study/GoogleV8/second.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md

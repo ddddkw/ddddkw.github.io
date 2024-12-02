@@ -5,7 +5,7 @@
 在react中书写样式的过程中，我都是通过直接import引入css文件的形式实现的。
 
 ```javascript
-import './index.module.css'
+import './index.css'
 ```
 
 但是这样会导致样式混淆，css文件中使用的所有样式都是全局样式。
