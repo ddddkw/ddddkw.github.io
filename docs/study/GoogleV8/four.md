@@ -29,14 +29,14 @@ js就是标准的弱类型语言
 [].valueOf() = []
 [].toString = ''
 {}.valueOf() = {}
-{}.toString = '{Object,Object}'
+{}.toString = '[Object,Object]'
 ```
 
 例子：
 
 ```javascript
 []+[] //''
-[]+{} //"{Obejct,Obejct}"
+[]+{} //"[Obejct,Obejct]"
 {}+[] // 0 这里等于0的原因，因为{}在js中有两种解释，一种是当做对象字面量，一种是当做对象，当{}放在前面时是会被当做代码块进行解析的。所里这里就是+[]的含义= +''= 0
 ```
 
