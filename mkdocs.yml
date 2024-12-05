@@ -35,6 +35,7 @@ nav:
         - 3,V8实现对象继承: study/GoogleV8/third.md
         - 4,V8拆箱装箱机制: study/GoogleV8/four.md
         - 5,基于拆箱装箱的解析: study/GoogleV8/five.md
+        - 6,V8中的闭包解析: study/GoogleV8/six.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
