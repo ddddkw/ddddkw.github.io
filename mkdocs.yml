@@ -42,6 +42,7 @@ nav:
       - 虚拟DOM: sourceCode/虚拟DOM.md
   - demo:
       - 个人博客: products/blog.md
+      - 页面构建: products/build.md
   - 关于:
     - about.md
   - 友链:
