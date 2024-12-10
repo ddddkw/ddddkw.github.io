@@ -37,6 +37,9 @@ nav:
         - 4,V8拆箱装箱机制: study/GoogleV8/four.md
         - 5,基于拆箱装箱的解析: study/GoogleV8/five.md
         - 6,V8中的闭包解析: study/GoogleV8/six.md
+        - 7,js中的异步编程以及事件循环机制: study/GoogleV8/seven.md
+        - 8,异步编程演变和发布订阅: study/GoogleV8/eight.md
+        - 9,Promise与控制反转: study/GoogleV8/nine.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
