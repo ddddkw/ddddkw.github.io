@@ -27,6 +27,7 @@ nav:
           - first: technology/web/lowCode/first.md
     - 后端:
        - 主页: technology/boot/index.md
+    - nginx使用中的405和403: technology/nginx.md
   - 学习:
       - 小记: study/index.md
       - GoogleV8底层原理:
