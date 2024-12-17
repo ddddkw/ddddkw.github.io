@@ -60,6 +60,7 @@
     ---
 
     - [vue源码学习](sourceCode/vue.md)
+    - [手写Promise](study/GoogleV8/13.md)
 
 -   :simple-aboutdotme:{ .lg .middle } __其他分享__
 

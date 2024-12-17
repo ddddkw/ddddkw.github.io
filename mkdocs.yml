@@ -43,6 +43,7 @@ nav:
         - 10,Generator函数与协程原理及实现: study/GoogleV8/ten.md
         - 11,co模块解析以及源码分析: study/GoogleV8/11.md
         - 12,async函数的实现原理: study/GoogleV8/12.md
+        - 12,手写Promise A+规范的Promise: study/GoogleV8/13.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
