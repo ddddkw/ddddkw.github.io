@@ -45,6 +45,9 @@ nav:
         - 12,async函数的实现原理: study/GoogleV8/12.md
         - 13,手写Promise A+规范的Promise: study/GoogleV8/13.md
         - 14,Web Worker多线程机制: study/GoogleV8/14.md
+      - 浏览器执行原理:
+        - 4,var的缺陷以及let、const: study/browserPrinciple/4.md
+        - 5,js执行上下文的角度理解this: study/browserPrinciple/5.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
