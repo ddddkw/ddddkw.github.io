@@ -50,6 +50,7 @@ nav:
         - 3,为什么JavaScript代码会出现栈溢出: study/BrowserPrinciple/3.md
         - 4,var的缺陷以及let、const: study/BrowserPrinciple/4.md
         - 5,js执行上下文的角度理解this: study/BrowserPrinciple/5.md
+        - 6,栈空间和堆空间，数据是如何存储的: study/BrowserPrinciple/6.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
