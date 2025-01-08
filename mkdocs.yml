@@ -48,8 +48,8 @@ nav:
         - 1,浏览器的工作过程: study/BrowserPrinciple/1.md
         - 2,浏览器中的js的执行机制: study/BrowserPrinciple/2.md
         - 3,为什么JavaScript代码会出现栈溢出: study/BrowserPrinciple/3.md
-        - 4,var的缺陷以及let、const: study/browserPrinciple/4.md
-        - 5,js执行上下文的角度理解this: study/browserPrinciple/5.md
+        - 4,var的缺陷以及let、const: study/BrowserPrinciple/4.md
+        - 5,js执行上下文的角度理解this: study/BrowserPrinciple/5.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
