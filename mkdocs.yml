@@ -54,6 +54,8 @@ nav:
         - 6,栈空间和堆空间，数据是如何存储的: study/BrowserPrinciple/6.md
       - webpack原理分析及实践:
         - 1,webpack流程操作: study/webPack/1.md
+        - 2,webpack各版本对比以及性能优化: study/webPack/2.md
+        - 3,webpack实践: study/webPack/3.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
