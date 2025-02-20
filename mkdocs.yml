@@ -55,7 +55,10 @@ nav:
       - webpack原理分析及实践:
         - 1,webpack流程操作: study/webPack/1.md
         - 2,webpack各版本对比以及性能优化: study/webPack/2.md
-        - 3,webpack实践: study/webPack/3.md
+        - 3,webpack实践(1): study/webPack/3.md
+        - 4,webpack实践(2): study/webPack/4.md
+        - 5,性能优化实践: study/webPack/5.md
+        - 6,webpack Terser: study/webPack/6.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
