@@ -52,6 +52,8 @@ nav:
         - 4,var的缺陷以及let、const: study/BrowserPrinciple/4.md
         - 5,js执行上下文的角度理解this: study/BrowserPrinciple/5.md
         - 6,栈空间和堆空间，数据是如何存储的: study/BrowserPrinciple/6.md
+      - webpack核心原理以及应用:
+        - webpack打包原理流程分析: study/Webpack/1.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
