@@ -60,6 +60,11 @@ nav:
         - 4,webpack实践(2): study/Webpack/4.md
         - 5,性能优化实践: study/Webpack/5.md
         - 6,webpack Terser: study/Webpack/6.md
+      - nodejs学习:
+        - 1,nodejs的简介: study/nodejs/1.md
+        - 2,express中间件的顺序和放行: study/nodejs/2.md
+        - 3,nodejs连接MySQL以及ejs模板引擎的使用: study/nodejs/3.md
+        - 4,cookie和session: study/nodejs/4.md
   - 源码:
       - vue: sourceCode/vue.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
