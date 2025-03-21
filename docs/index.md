@@ -59,7 +59,7 @@
 
     ---
 
-    - [vue源码学习](sourceCode/vue.md)
+    - [vue源码学习](sourceCode/index.md)
     - [手写Promise](study/GoogleV8/13.md)
 
 -   :simple-aboutdotme:{ .lg .middle } __其他分享__

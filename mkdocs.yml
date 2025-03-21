@@ -65,8 +65,12 @@ nav:
         - 2,express中间件的顺序和放行: study/nodejs/2.md
         - 3,nodejs连接MySQL以及ejs模板引擎的使用: study/nodejs/3.md
         - 4,cookie和session: study/nodejs/4.md
+      - nginx:
+        - 1,反向代理和正向代理: study/nginx/1.md
+        - 2,nginx中的accessLog: study/nginx/2.md
+        - 3,nginx端的性能优化: study/nginx/3.md
   - 源码:
-      - vue: sourceCode/vue.md
+      - vue: sourceCode/index.md
       - 虚拟DOM: sourceCode/虚拟DOM.md
   - demo:
       - 个人博客: products/blog.md
