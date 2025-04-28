@@ -31,6 +31,7 @@ nav:
        - 主页: technology/boot/index.md
        - 记一次大数据量查询时的优化: technology/boot/1.md
        - springboot整合actuator: technology/boot/actuator.md
+       - 配置nacos注册中心: technology/boot/nacos.md
     - nginx使用中的405和403: technology/nginx.md
   - 学习:
       - 小记: study/index.md
