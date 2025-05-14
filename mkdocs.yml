@@ -8,8 +8,7 @@ repo_name: ddddkw/ddddkw.github.io.git # 仓库地址
 copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
 # edit_uri: edit/main/docs/ # 开启编辑
 nav:
-  - 技术:
-#    - 主页: index.md
+  - 你好:
     - 搭建github.Pages: homePage/buildPage.md
     - mkdocs&图片: homePage/pictures.md
   - 开发:
@@ -25,6 +24,8 @@ nav:
           - antdesign-upload组件的使用以及文件存储展示: technology/web/react/upload.md
           - react中的局部样式: technology/web/react/reactStyle.md
           - redux: technology/web/react/redux.md
+          - nextjs:
+              - nextjs简介: technology/web/react/nextjs/1.md
        - 低代码平台:
           - first: technology/web/lowCode/first.md
     - 后端:
