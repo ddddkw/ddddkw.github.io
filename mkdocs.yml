@@ -8,7 +8,7 @@ repo_name: ddddkw/ddddkw.github.io.git # 仓库地址
 copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
 # edit_uri: edit/main/docs/ # 开启编辑
 nav:
-  - 你好:
+  - 首页:
     - 搭建github.Pages: homePage/buildPage.md
     - mkdocs&图片: homePage/pictures.md
   - 开发:
@@ -33,6 +33,9 @@ nav:
        - 记一次大数据量查询时的优化: technology/boot/1.md
        - springboot整合actuator: technology/boot/actuator.md
        - 配置nacos注册中心: technology/boot/nacos.md
+    - 源码:
+       - vue: sourceCode/index.md
+       - 虚拟DOM: sourceCode/虚拟DOM.md
     - nginx使用中的405和403: technology/nginx.md
   - 学习:
       - 小记: study/index.md
@@ -73,16 +76,13 @@ nav:
         - 1,反向代理和正向代理: study/nginx/1.md
         - 2,nginx中的accessLog: study/nginx/2.md
         - 3,nginx端的性能优化: study/nginx/3.md
-  - 源码:
-      - vue: sourceCode/index.md
-      - 虚拟DOM: sourceCode/虚拟DOM.md
-  - demo:
-      - 个人博客: products/blog.md
-      - 页面构建: products/build.md
   - 关于:
     - about.md
   - 友链:
-    - otherLink.md
+    - 博客推荐: otherLink.md
+    - 个人demo:
+      - 个人博客: products/blog.md
+      - 页面构建: products/build.md
 theme:
   features:
     - navigation.indexes
