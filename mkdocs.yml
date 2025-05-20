@@ -8,8 +8,7 @@ repo_name: ddddkw/ddddkw.github.io.git # 仓库地址
 copyright: Copyright &copy; 2024 ddddkw # 左下角的版权声明
 # edit_uri: edit/main/docs/ # 开启编辑
 nav:
-  - 技术:
-#    - 主页: index.md
+  - 首页:
     - 搭建github.Pages: homePage/buildPage.md
     - mkdocs&图片: homePage/pictures.md
   - 开发:
@@ -19,18 +18,30 @@ nav:
        - let和var的区别: technology/web/let和var的区别.md
        - echarts饼图镶嵌图片: technology/web/echartsPie.md
        - 默认导出和命名导出: technology/web/默认导出和命名导出.md
+       - 本地代码连接多个远程仓库: technology/web/git多仓库.md
        - react:
           - react-router: technology/web/react/router.md
           - antdesign-upload组件的使用以及文件存储展示: technology/web/react/upload.md
           - react中的局部样式: technology/web/react/reactStyle.md
+          - redux: technology/web/react/redux.md
+          - nextjs:
+              - nextjs简介: technology/web/react/nextjs/1.md
        - 低代码平台:
           - first: technology/web/lowCode/first.md
     - 后端:
        - 主页: technology/boot/index.md
        - 记一次大数据量查询时的优化: technology/boot/1.md
+       - springboot整合actuator: technology/boot/actuator.md
+       - 配置nacos注册中心: technology/boot/nacos.md
+    - 源码:
+       - vue: sourceCode/index.md
+       - 虚拟DOM: sourceCode/虚拟DOM.md
     - nginx使用中的405和403: technology/nginx.md
   - 学习:
       - 小记: study/index.md
+      - prometheus和grafana:
+        - 1,prometheus: study/prometheus和grafana/1.md
+        - 2,grafana: study/prometheus和grafana/2.md
       - GoogleV8底层原理:
         - 1,V8如何执行一段JavaScript代码: study/GoogleV8/first.md
         - 2,js对象模型全解: study/GoogleV8/second.md
@@ -45,6 +56,8 @@ nav:
         - 11,co模块解析以及源码分析: study/GoogleV8/11.md
         - 12,async函数的实现原理: study/GoogleV8/12.md
         - 12,手写Promise A+规范的Promise: study/GoogleV8/13.md
+      - docker:
+        - 1,docker命令: study/docker/1.md
       - 浏览器工作原理:
         - 1,浏览器的工作过程: study/BrowserPrinciple/1.md
         - 2,浏览器中的js的执行机制: study/BrowserPrinciple/2.md
@@ -59,16 +72,22 @@ nav:
         - 4,webpack实践(2): study/Webpack/4.md
         - 5,性能优化实践: study/Webpack/5.md
         - 6,webpack Terser: study/Webpack/6.md
-  - 源码:
-      - vue: sourceCode/vue.md
-      - 虚拟DOM: sourceCode/虚拟DOM.md
-  - demo:
-      - 个人博客: products/blog.md
-      - 页面构建: products/build.md
+      - nodejs学习:
+        - 1,nodejs的简介: study/nodejs/1.md
+        - 2,express中间件的顺序和放行: study/nodejs/2.md
+        - 3,nodejs连接MySQL以及ejs模板引擎的使用: study/nodejs/3.md
+        - 4,cookie和session: study/nodejs/4.md
+      - nginx:
+        - 1,反向代理和正向代理: study/nginx/1.md
+        - 2,nginx中的accessLog: study/nginx/2.md
+        - 3,nginx端的性能优化: study/nginx/3.md
   - 关于:
     - about.md
   - 友链:
-    - otherLink.md
+    - 博客推荐: otherLink.md
+    - 个人demo:
+      - 个人博客: products/blog.md
+      - 页面构建: products/build.md
 theme:
   features:
     - navigation.indexes
