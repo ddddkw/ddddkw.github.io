@@ -56,6 +56,8 @@ nav:
         - 11,co模块解析以及源码分析: study/GoogleV8/11.md
         - 12,async函数的实现原理: study/GoogleV8/12.md
         - 12,手写Promise A+规范的Promise: study/GoogleV8/13.md
+      - docker:
+        - 1,docker命令: study/docker/1.md
       - 浏览器工作原理:
         - 1,浏览器的工作过程: study/BrowserPrinciple/1.md
         - 2,浏览器中的js的执行机制: study/BrowserPrinciple/2.md
