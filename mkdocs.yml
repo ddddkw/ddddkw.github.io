@@ -81,6 +81,10 @@ nav:
         - 1,反向代理和正向代理: study/nginx/1.md
         - 2,nginx中的accessLog: study/nginx/2.md
         - 3,nginx端的性能优化: study/nginx/3.md
+  - 系列:
+    - 短链平台:
+      - 后端初始化: products/shortLink/1.md
+      - 常用配置封装: products/shortLink/2.md
   - 关于:
     - about.md
   - 友链:
