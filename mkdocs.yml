@@ -85,6 +85,7 @@ nav:
     - 短链平台:
       - 后端初始化: products/shortLink/1.md
       - 常用配置封装: products/shortLink/2.md
+      - JWT集成拦截器: products/shortLink/3.md
   - 关于:
     - about.md
   - 友链:
