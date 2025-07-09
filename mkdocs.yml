@@ -14,6 +14,7 @@ nav:
   - 开发:
     - 前端:
        - js实现文件排序: technology/web/js实现文件排序.md
+       - 实现前端版本检测: technology/web/前端版本检测.md
        - es6新增知识: technology/web/es6新增知识.md
        - let和var的区别: technology/web/let和var的区别.md
        - echarts饼图镶嵌图片: technology/web/echartsPie.md
