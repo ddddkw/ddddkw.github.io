@@ -89,7 +89,9 @@ nav:
       - JWT集成拦截器: products/shortLink/3.md
       - 集成sharding-jdbc: products/shortLink/4.md
       - 雪花算法: products/shortLink/5.md
-      - 分库分表自定义策略: products/shortLink/6.md
+      - 下单消费逻辑梳理: products/shortLink/6.md
+      - 分库分表自定义策略: products/shortLink/7.md
+      - 数据分层治理: products/shortLink/8.md
   - 关于:
     - about.md
   - 友链:
